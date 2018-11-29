@@ -1,6 +1,6 @@
 # Resources in YAML
 
-Any external service that is consumed as part of your pipeline is a resource. 
+Any external service that is consumed as part of your pipeline is a resource . 
 
 An example of a resource can be another CI/CD pipeline that produces artifacts (say Azure pipelines, Jenkins etc.), code repositories (GitHub, Azure Repos, Git), container image registries (ACR, Docker hub etc.) or package feeds (Azure Artifact feed, Artifactory package etc.).  
 
@@ -8,7 +8,7 @@ An example of a resource can be another CI/CD pipeline that produces artifacts (
 
 Resources are defined at one place and can be consumed anywhere in your pipeline. Resources provide you the full traceablity of the services consumed in your pipeline including the branch, version, tags, associated commits and work-items. You can fully automate your DevOps workflow by subscribing to trigger events on your resources.
 
-Resources in YAML represent sources of types pipelines, repositories, containers and packages.
+Resources in YAML represent sources of types pipelines, repositories, containers and packages .
 
 
 ### Schema
